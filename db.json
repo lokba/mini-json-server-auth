@@ -1,28 +1,3 @@
 {
-  "users": [
-    {
-      "email": "evertree6031@naver.com",
-      "password": "$2a$10$sDDtVhxZ2qnKkg9rmNoPqOGIP33ltyc6csIc156Gy2LsWKSipF4Te",
-      "name": "김상록",
-      "id": 1
-    },
-    {
-      "email": "evertree60311@naver.com",
-      "password": "$2a$10$AgNXVDTqe.0HOoXKoaWLS.6X/LifvJl18ceUPWundHKFlXKtK.nq.",
-      "name": "김상록",
-      "id": 2
-    },
-    {
-      "email": "evertree6031@gmail.com",
-      "password": "$2a$10$PLxGMP6AOXOeR1Y0zg98peTqX3DfVpFMiYXOweYL1FtMAj394MDla",
-      "name": "김상록",
-      "id": 3
-    },
-    {
-      "email": "evertree6031@gmail1.com",
-      "password": "$2a$10$1yWAWanztxVk3ZvlJF/9d.DB50OsM/xMFeInugP.Mkr8aoCDPkf3S",
-      "name": "김수지",
-      "id": 4
-    }
-  ]
+  "users": []
 }
