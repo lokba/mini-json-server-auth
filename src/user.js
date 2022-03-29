@@ -1,9 +1,9 @@
 const id = localStorage.getItem("id");
 
 async function getUserInfo() {
-  const response = await fetch(`http://localhost:3000/users/${id}`).then(
-    (res) => res.json()
-  );
+  const response = await fetch(
+    `http://localhost:3000/users/${id}`
+  ).then((res) => res.json());
 
   const { email, name } = response;
   return { email, name };

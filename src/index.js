@@ -1,9 +1,9 @@
 const id = localStorage.getItem("id");
 
 async function getUserName() {
-  const response = await fetch(`http://localhost:3000/users/${id}`).then(
-    (res) => res.json()
-  );
+  const response = await fetch(
+    `http://localhost:3000/users/${id}`
+  ).then((res) => res.json());
   const { name } = response;
   return name;
 }
@@ -24,14 +24,14 @@ async function renderHome() {
       const main = document.querySelector("main");
       main.replaceChildren();
       main.insertAdjacentHTML("beforeend", template);
-      logout();
+      addLogoutEvent();
     } catch (e) {
       alert(e);
     }
   }
 }
 
-function logout() {
+function addLogoutEvent() {
   const logoutButton = document.querySelector("#logout-button");
   logoutButton.addEventListener("click", clearLocalStorage);
 }

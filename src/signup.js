@@ -25,7 +25,7 @@ async function handleSignupFormSubmit(e) {
     localStorage.setItem("accessToken", accessToken);
     localStorage.setItem("id", id);
 
-    window.location.href = "http://localhost:8080/index.html";
+    window.location.href = "/index.html";
   } catch (e) {
     alert(e);
   }

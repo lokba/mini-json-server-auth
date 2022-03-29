@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server" : "json-server --watch db.json -m ./node_modules/json-server-auth"
+    "server": "json-server --watch db.json -m ./node_modules/json-server-auth",
+    "start": "npx http-server"
   },
   "repository": {
     "type": "git",
